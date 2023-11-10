@@ -1,1 +1,24 @@
-ï»¿
+#include<stdio.h>
+int main(void)
+{
+	int x;
+	printf("‚ ‚È‚½‚ÉƒNƒ‰ƒX‚Ìƒ}ƒhƒ“ƒi‚ª”’‚µ‚Ä‚«‚Ü‚µ‚½B‚ ‚È‚½‚Í‚Ç‚¤‚µ‚Ü‚·‚©\n1.”’‚ğó‚¯“ü‚ê‚é\n2.’f‚é\n3.u‚Ü‚¸‚Í—F’B‚©‚ç‚¨Šè‚¢‚µ‚Ü‚·‚Æ‚¢‚¤v");
+	scanf_s("%d", &x);
+	if (x == 1)
+	{
+		printf("‚±‚ê‚Í”±ƒQ[ƒ€”’‚Å‚µ‚½OOc”O`\n");
+	}
+	else if (x == 2)
+	{
+		printf("„‚©‚ç‚Ì”’‚ğ’f‚é‚Æ‚©‚¨‘OlŠÔ‚¶‚á‚Ë‚¦‚¾‚ëI\n");
+	}
+	else if (x == 3)
+	{
+		printf("„½À‚ÈlD‚«‚È‚ÌB•t‚«‡‚¢‚Ü‚µ‚å‚¤I\nHAPPY END!");
+	}
+	else
+	{
+		printf("‚¨‘O‚ğE‚·E‚·E‚·E‚·E‚·E‚·‚‹‚ë‚·kroskoksjkjkhaihgjhsjhuioaehuiohuioahsubhdvufiaieghuisghuighduifwea");
+	}
+	return 0;
+}
