@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(void)
-{
+{   
 	char a;
 	printf("•¶š‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢F");
 	scanf_s("%c", &a);
@@ -8,7 +8,7 @@ int main(void)
 		printf("‘å•¶š‚ÍŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·\n");
 	}
 	else {
-		printf("‘å•¶š‚ÍŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚¹‚ñ");
+		printf("‘å•¶š‚ÍŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚¹‚ñ\n");
 	}
 	return 0;
 }
